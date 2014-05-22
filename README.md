@@ -53,10 +53,20 @@ console.log(jConfig.get());
         <script src="jConfigAssets/jConfig.js" type="text/javascript"></script>
     </head>
     <body>
-
+        <script type="text/javascript">
+            /**
+             * Real Example Use
+             */
+            $(document).ready(function() {
+                document.title = jConfig.get('TITLE');
+                $('meta[name=description]').remove();
+                $('meta[name=keywords]').remove();
+                $('head').append('<meta name="description" content="' + jConfig.get('DESCRIPTION') + '">');
+                $('head').append('<meta name="keywords" content="' + jConfig.get('KEYWORDS') + '">');
+            });
+        </script>
     </body>
 </html>
-
 ```
 
 Cheers!!
