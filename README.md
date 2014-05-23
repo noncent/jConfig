@@ -1,15 +1,13 @@
 jConfig
 =======
 
-jConfig is an utility javascript code to helps PHP developers to get PHP config data/value in js file. Usually we can't use php code inside js file. If we want to use any PHP config data value inside the js file then we have to write javascript code inside PHP file.
+jConfig is an utility javascript code to helps PHP developers to get PHP config data/value in js file. Useally we can't use php code inside js file. If we want to use any PHP config data value inside the js file then we have to write javascript code inside PHP file.
 We can't get config data in .js file. So, jConfig is here to resolve this problem.
-
 
 
 <h5>What is jConfig?</h5>
 
 jConfig is working as function that helps to get config data from server side inside js file as json. jConfig return you all your server side config data as an json format.
-
 
 
 <h5>Why we use jConfig?</h5>
@@ -94,9 +92,10 @@ function fbCallback() {};
 
 When we work on any Web based project like PHP web site then some time we need server side config data in js file (like appid or somthing else). In js file we can't write server side code. So, here problems occurs, we need to place our js code inside php file. jConfig resolve this issue and you are free to get server side config data inside js file. Actually jConfig not gives you only config data it's give you all server side value, variable value inside js file.
 
+
 <h5>How to Use jConfig:</h5>
 
-You have to add jQuery lib and jConfig.js file inside your html or php file. Then you can use jConfig function anywhere in any js file.
+You have to add jQuery lib and jConfig.js file inside your html or php file. Then you can use jConfig function anywhere in any js file. For <b>config</b> file check <b>class/config.php</b>
 You can get data like:
 
 ```javascript
@@ -121,7 +120,7 @@ also you can see all config data inside browser console like:
 console.log(jConfig.get());
 ```
 
-<h4>Example Page:</h4>
+<h5>Example Page:</h5>
 
 ```html
 <!DOCTYPE html>
