@@ -1,12 +1,15 @@
 jConfig
 =======
 
-jConfig is an utility javascript code to helps PHP developers to get PHP config data/value in js file. Useally we can't use php code inside js file. If we want to use any PHP config data value inside the js file then we have to write javascript code inside PHP file.
+jConfig is an utility javascript code to helps PHP developers to get PHP config data/value in js file. Usually we can't use php code inside js file. If we want to use any PHP config data value inside the js file then we have to write javascript code inside PHP file.
 We can't get config data in .js file. So, jConfig is here to resolve this problem.
+
+
 
 <h5>What is jConfig?</h5>
 
 jConfig is working as function that helps to get config data from server side inside js file as json. jConfig return you all your server side config data as an json format.
+
 
 
 <h5>Why we use jConfig?</h5>
